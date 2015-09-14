@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7806EBB1BA6434C0066864F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7806EBA1BA6434C0066864F /* AppDelegate.swift */; };
+		A7806EBD1BA6434C0066864F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7806EBC1BA6434C0066864F /* ViewController.swift */; };
+		A7806EC01BA6434C0066864F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7806EBE1BA6434C0066864F /* Main.storyboard */; };
+		A7806EC21BA6434C0066864F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7806EC11BA6434C0066864F /* Images.xcassets */; };
+		A7806EC51BA6434C0066864F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7806EC31BA6434C0066864F /* LaunchScreen.xib */; };
+		A7806ED11BA6434C0066864F /* BLETIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7806ED01BA6434C0066864F /* BLETIDemoTests.swift */; };
+		A7806EDB1BA644570066864F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7806EDA1BA644570066864F /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7806ECB1BA6434C0066864F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7806EAD1BA6434C0066864F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7806EB41BA6434C0066864F;
+			remoteInfo = BLETIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7806EB51BA6434C0066864F /* BLETIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLETIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7806EB91BA6434C0066864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7806EBA1BA6434C0066864F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7806EBC1BA6434C0066864F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7806EBF1BA6434C0066864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7806EC11BA6434C0066864F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7806EC41BA6434C0066864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7806ECA1BA6434C0066864F /* BLETIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7806ECF1BA6434C0066864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7806ED01BA6434C0066864F /* BLETIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETIDemoTests.swift; sourceTree = "<group>"; };
+		A7806EDA1BA644570066864F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7806EB21BA6434C0066864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7806EDB1BA644570066864F /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7806EC71BA6434C0066864F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7806EAC1BA6434C0066864F = {
+			isa = PBXGroup;
+			children = (
+				A7806EB71BA6434C0066864F /* BLETIDemo */,
+				A7806ECD1BA6434C0066864F /* BLETIDemoTests */,
+				A7806EB61BA6434C0066864F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7806EB61BA6434C0066864F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7806EB51BA6434C0066864F /* BLETIDemo.app */,
+				A7806ECA1BA6434C0066864F /* BLETIDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7806EB71BA6434C0066864F /* BLETIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A7806EBA1BA6434C0066864F /* AppDelegate.swift */,
+				A7806EBC1BA6434C0066864F /* ViewController.swift */,
+				A7806EBE1BA6434C0066864F /* Main.storyboard */,
+				A7806EC11BA6434C0066864F /* Images.xcassets */,
+				A7806EC31BA6434C0066864F /* LaunchScreen.xib */,
+				A7806EB81BA6434C0066864F /* Supporting Files */,
+			);
+			path = BLETIDemo;
+			sourceTree = "<group>";
+		};
+		A7806EB81BA6434C0066864F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7806EDA1BA644570066864F /* CoreBluetooth.framework */,
+				A7806EB91BA6434C0066864F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7806ECD1BA6434C0066864F /* BLETIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7806ED01BA6434C0066864F /* BLETIDemoTests.swift */,
+				A7806ECE1BA6434C0066864F /* Supporting Files */,
+			);
+			path = BLETIDemoTests;
+			sourceTree = "<group>";
+		};
+		A7806ECE1BA6434C0066864F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7806ECF1BA6434C0066864F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7806EB41BA6434C0066864F /* BLETIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7806ED41BA6434C0066864F /* Build configuration list for PBXNativeTarget "BLETIDemo" */;
+			buildPhases = (
+				A7806EB11BA6434C0066864F /* Sources */,
+				A7806EB21BA6434C0066864F /* Frameworks */,
+				A7806EB31BA6434C0066864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLETIDemo;
+			productName = BLETIDemo;
+			productReference = A7806EB51BA6434C0066864F /* BLETIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7806EC91BA6434C0066864F /* BLETIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7806ED71BA6434C0066864F /* Build configuration list for PBXNativeTarget "BLETIDemoTests" */;
+			buildPhases = (
+				A7806EC61BA6434C0066864F /* Sources */,
+				A7806EC71BA6434C0066864F /* Frameworks */,
+				A7806EC81BA6434C0066864F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7806ECC1BA6434C0066864F /* PBXTargetDependency */,
+			);
+			name = BLETIDemoTests;
+			productName = BLETIDemoTests;
+			productReference = A7806ECA1BA6434C0066864F /* BLETIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7806EAD1BA6434C0066864F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = qingjie;
+				TargetAttributes = {
+					A7806EB41BA6434C0066864F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A7806EC91BA6434C0066864F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A7806EB41BA6434C0066864F;
+					};
+				};
+			};
+			buildConfigurationList = A7806EB01BA6434C0066864F /* Build configuration list for PBXProject "BLETIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7806EAC1BA6434C0066864F;
+			productRefGroup = A7806EB61BA6434C0066864F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7806EB41BA6434C0066864F /* BLETIDemo */,
+				A7806EC91BA6434C0066864F /* BLETIDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7806EB31BA6434C0066864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7806EC01BA6434C0066864F /* Main.storyboard in Resources */,
+				A7806EC51BA6434C0066864F /* LaunchScreen.xib in Resources */,
+				A7806EC21BA6434C0066864F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7806EC81BA6434C0066864F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7806EB11BA6434C0066864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7806EBD1BA6434C0066864F /* ViewController.swift in Sources */,
+				A7806EBB1BA6434C0066864F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7806EC61BA6434C0066864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7806ED11BA6434C0066864F /* BLETIDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7806ECC1BA6434C0066864F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7806EB41BA6434C0066864F /* BLETIDemo */;
+			targetProxy = A7806ECB1BA6434C0066864F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7806EBE1BA6434C0066864F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7806EBF1BA6434C0066864F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7806EC31BA6434C0066864F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7806EC41BA6434C0066864F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7806ED21BA6434C0066864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7806ED31BA6434C0066864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7806ED51BA6434C0066864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLETIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7806ED61BA6434C0066864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLETIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7806ED81BA6434C0066864F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLETIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLETIDemo.app/BLETIDemo";
+			};
+			name = Debug;
+		};
+		A7806ED91BA6434C0066864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLETIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLETIDemo.app/BLETIDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7806EB01BA6434C0066864F /* Build configuration list for PBXProject "BLETIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7806ED21BA6434C0066864F /* Debug */,
+				A7806ED31BA6434C0066864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7806ED41BA6434C0066864F /* Build configuration list for PBXNativeTarget "BLETIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7806ED51BA6434C0066864F /* Debug */,
+				A7806ED61BA6434C0066864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7806ED71BA6434C0066864F /* Build configuration list for PBXNativeTarget "BLETIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7806ED81BA6434C0066864F /* Debug */,
+				A7806ED91BA6434C0066864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7806EAD1BA6434C0066864F /* Project object */;
+}
